@@ -115,7 +115,7 @@
             this.label2.Size = new System.Drawing.Size(43, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "0:00:00";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            
             // 
             // button6
             // 
@@ -217,7 +217,7 @@
             this.trackBar1.Size = new System.Drawing.Size(167, 45);
             this.trackBar1.TabIndex = 5;
             this.trackBar1.TickStyle = System.Windows.Forms.TickStyle.None;
-            this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
+            
             this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
             // 
             // label1
@@ -252,7 +252,7 @@
             this.WMP.Size = new System.Drawing.Size(971, 556);
             this.WMP.TabIndex = 1;
             this.WMP.PlayStateChange += new AxWMPLib._WMPOCXEvents_PlayStateChangeEventHandler(this.WMP_PlayStateChange);
-            this.WMP.Enter += new System.EventHandler(this.WMP_Enter_2);
+           
             // 
             // timer1
             // 

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -61,21 +54,6 @@ namespace Проигрыватель
             
         }
 
-        private void WMP_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void WMP_Enter_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void WMP_Enter_2(object sender, EventArgs e)
-        {
-
-        }
-
         private void button4_Click(object sender, EventArgs e)
         {
             WMP.Ctlcontrols.play();
@@ -94,11 +72,6 @@ namespace Проигрыватель
         private void trackBar1_ValueChanged(object sender, EventArgs e)
         {
             WMP.settings.volume = trackBar1.Value;
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void WMP_PlayStateChange(object sender, AxWMPLib._WMPOCXEvents_PlayStateChangeEvent e)
@@ -128,11 +101,6 @@ namespace Проигрыватель
         private void trackBar2_Scroll(object sender, EventArgs e)
         {
             WMP.Ctlcontrols.currentPosition = trackBar2.Value;
-        }
-
-        private void trackBar1_Scroll(object sender, EventArgs e)
-        {
-
         }
 
         private void button3_Click(object sender, EventArgs e)
